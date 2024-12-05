@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f5f2;
+  color: #5C4033;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main h1 {
+  text-align: center;
+  color: #3c2f2a;
+}
+
+/* Header */
+header {
+  background-color: #2d5c4a;
+  padding: 20px;
+  color: white;
+  border-bottom: 10px solid #DAA06D;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 90px auto; /* Centers the section */
+  position: relative;
+  background-color: #3c2f2a; /* Dark brown background around the box */
+  box-shadow:
+    0 0 0 5px #3c2f2a, 
+    0 0 0 10px #DAA06D,
+    0 0 0 25px #3c2f2a,  
+    0 0 0 30px #2d5c4a,
+    0 0 0 45px #3c2f2a,
+    0 0 0 54px #EADDCA, 
+    0 0 0 70px #3c2f2a; /* Add box-shadow for layered effect */
+  }
+
+.placeholder {
+  width: 110px; /* Inner box size */
+  height: 70px;
+  background-color: #3c2f2a; /* Darker brown for the inner box */
+  border: 1px solid black; /* Light brown border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #EADDCA;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: relative;
+}
+
+.lorem-ipsum {
+  text-align: center;
+  color: #3c2f2a;
+  margin-bottom: 50px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e3c4b5;
+  padding: 30px;
+  text-align: center;
+  border-top: 1px solid #DAA06D;
+  margin-top: -30px;
+}
+
+.contact h2 {
+  margin-top: -5px; 
+  margin-bottom: 20px; 
+  color: #3c2f2a; 
+  font-size: 1.8em; 
+}
+
+form {
+  display: flex; 
+  padding: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  margin: 0 auto;
+  border: 3px solid #DAA06D;
+  border-radius: 20px;
+}
+
+form label {
+  display: flex;
+  text-align: left;
+
+}
+
+input {
+  border: 1px solid #3c2f2a;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  margin-top: -7px;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  background-color: #3c2f2a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #244d3c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #2d5c4a;
+  color: white;
+  border-bottom: 
+    20px solid black;
+}
+
+/* White Space */
+.white-space {
+  height: 300px;
+} 
